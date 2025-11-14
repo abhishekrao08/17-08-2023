@@ -420,6 +420,8 @@ To check known hosts
 cd .ssh
 cat known_hosts
 
+ansible all -m setup
+set up module will print the complete info about the workernode.
 ansible all -m setup | grep -i cpus
 ansible all -m setup | grep -i mem
 
