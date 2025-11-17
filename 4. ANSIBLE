@@ -40,7 +40,7 @@ sudo -i
 
 
 passwd root    (for root user to login to worker nodes it is best to set password on all the server)
-vim /etc/ssh/sshd_config  (38 uncomment, 63 no=yes)
+vim /etc/ssh/sshd_config  (38 uncomment, 63 no=yes)   (permission for root user to login)
 systemctl restart sshd
 systemctl status sshd
 
