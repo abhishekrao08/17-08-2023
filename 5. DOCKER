@@ -536,7 +536,7 @@ image we create on host then we will push them to dockerhub.
 Once image is availabel on dockerhub we can use in any server.
 we use repos to store images.
 repo types: 1. public 2. private repo
-
+Note: If image is not stotred on dockerhub. we need to create image for each server.
 ACCOUNT:
 build a docker image with doker file.
 docker login: username and password
