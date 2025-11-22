@@ -483,6 +483,7 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose version
 
+Note:whenever we download package on file format we need to move that file to bin format.
 
 vim docker-compose.yml
 
