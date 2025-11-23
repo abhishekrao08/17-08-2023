@@ -574,6 +574,7 @@ hostnamectl set-hostname manager/worker-1/worker-2
 manager node: docker swarm init
 copy the token to all worker nodes
 
+docker node ls
 SERVICES:
 its a way of exposing the application in docker.
 with services we can create multiple copies of same container.
